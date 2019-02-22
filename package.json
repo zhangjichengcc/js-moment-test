@@ -1,24 +1,36 @@
 {
-  "name": "js-moment",
-  "version": "1.0.0",
-  "description": "时间格式化及计算方法",
+  "name": "js-moment-test",
+  "version": "0.0.1",
+  "description": "时间格式化及计算方法测试node",
   "private": false,
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
-  },
+  "main": ".dist/comment-cj/index.js",
+  "module": ".dist/comment/index.js",
+  "jsnext:main": ".dist/comment/index.js",
+  "scripts": {},
   "author": "张吉成",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^6.3.3",
     "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-dynamic-import-webpack": "^1.1.0",
     "babel-preset-es2015": "^6.24.1",
-    "clean-webpack-plugin": "^1.0.1",
-    "webpack": "^4.29.4",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
-  }
+    "browserify": "^16.2.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "keywords": [
+    "moment",
+    "date",
+    "time",
+    "format",
+    "validate",
+    "timestamp",
+    "addDay"
+  ]
 }
